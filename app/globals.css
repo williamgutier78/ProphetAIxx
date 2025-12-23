@@ -166,3 +166,9 @@ body {
               0 0 30px var(--matrix-green),
               inset 0 0 10px rgba(0, 255, 65, 0.2);
 }
+
+/* Flywheel banner scan animation */
+@keyframes flywheel-scan {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
